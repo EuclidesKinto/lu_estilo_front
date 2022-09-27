@@ -1,5 +1,5 @@
 <template>
-  <div class="default">
+  <div class="">
     <Header/>
     <Nuxt/>
     <Footer/>
@@ -10,7 +10,7 @@
 import Header from "~/components/header/Header";
 import Footer from "~/components/footer/Footer";
 export default {
-  name: "default",
+  name: "website",
   components: {Footer, Header}
 }
 </script>
