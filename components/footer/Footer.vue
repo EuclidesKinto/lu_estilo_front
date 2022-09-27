@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-gray-600 body-font">
+  <footer class="text-gray-600 body-font bg-gray-100">
     <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
       <nuxt-link to="/" class="text-2xl font-bold text-blue-500 ">Lu Estilo</nuxt-link>
       <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2022 Lu Estilo —
