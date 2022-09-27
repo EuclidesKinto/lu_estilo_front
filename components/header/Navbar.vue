@@ -7,7 +7,7 @@
           <a href="" class="text-gray-200 hover:text-white transition">Abadás</a>
           <a href="#" class="text-gray-200 hover:text-white transition">Uniformes</a>
         </div>
-        <a href="" class="text-gray-200 hover:text-white transition">Login</a>
+        <nuxt-link to="/register" class="text-gray-200 hover:text-white transition">Cadastre-se</nuxt-link>
       </div>
     </div>
   </nav>
