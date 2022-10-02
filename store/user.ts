@@ -14,4 +14,8 @@ export default class UserRegister extends VuexModule {
   public async create(payload: Create){
     await $axios.$post('/auth/register', payload)
   }
+  // @Action
+  // public async login(payload: Create){
+  //   await $axios.$post('/auth/login', payload)
+  // }
 }

@@ -28,7 +28,8 @@
       "@nuxt/types",
       "@types/node",
       "@nuxtjs/axios",
-      "vue-notification"
+      "vue-notification",
+      "@nuxtjs/auth-next",
     ]
   },
   "exclude": [

@@ -24,8 +24,13 @@
           v-model="confirm_password"
           placeholder="Confirme a Senha" />
 
-            <button v-if="password == confirm_password && confirm_password.length >= 6" type="submit" class="w-full py-3 my-1 text-center text-white bg-green-500 rounded hover:bg-green-dark focus:outline-none"
-          >
+            <button
+              v-if="password == confirm_password &&
+              confirm_password.length >= 6 &&
+              email.length >= 6 &&
+              name.length >= 3"
+              type="submit" class="w-full py-3 my-1 text-center text-white bg-green-500 rounded hover:bg-green-dark focus:outline-none"
+            >
             Criar Conta
           </button>
             <div v-else class="w-full py-3 my-1 italic text-center text-gray-200 bg-gray-400 rounded focus:outline-none"

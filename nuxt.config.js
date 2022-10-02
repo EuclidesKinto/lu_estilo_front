@@ -47,6 +47,8 @@ export default {
   modules: [
     '@nuxtjs/tailwindcss',
     '@nuxtjs/axios',
+    'cookie-universal-nuxt',
+    // '@nuxtjs/auth-next'
   ],
   axios: {
     baseUrl: 'http://localhost/api'
