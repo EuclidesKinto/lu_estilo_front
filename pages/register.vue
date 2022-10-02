@@ -17,6 +17,7 @@
 import Register from '~/components/auth/Register.vue';
 export default {
     name: "login",
+    middleware: 'guest',
     components: { Register }
 }
 </script>

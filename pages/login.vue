@@ -15,7 +15,8 @@
 import Login from '~/components/auth/Login.vue';
 export default {
     name: "login",
-    components: { Login }
+    components: { Login },
+    middleware: 'guest',
 }
 </script>
 

@@ -36,7 +36,7 @@
             password: this.password
           })
           console.log('ok')
-          // await this.$router.push({path:'register'})
+          await this.$router.push({path:'/'})
         } catch {
 
         }

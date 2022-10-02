@@ -16,6 +16,7 @@ export default Vue.extend({
       shirt: {}
     }
   },
+  middleware: 'auth',
   async asyncData({ params }){
     await shirts.show({id: params.id as any})
     // console.log(shirts.$single)
