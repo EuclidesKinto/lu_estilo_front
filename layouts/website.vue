@@ -1,7 +1,6 @@
 <template>
   <div class="bg-cyan-900">
     <Header/>
-
     <Nuxt/>
     <Footer/>
   </div>

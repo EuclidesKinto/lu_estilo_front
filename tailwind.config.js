@@ -20,6 +20,10 @@ module.exports = {
         colors:{
           'lu-estilo-color': '#475472',
         },
+        backgroundImage: {
+        'hero-madeira': "url('/image/fundo.jpg')",
+        'hero-shirts': "url('/image/shirts.jpg')",
+      }
     },
   },
   variants: {

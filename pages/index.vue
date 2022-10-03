@@ -8,7 +8,7 @@ import { shirts } from '@/store'
 
 export default Vue.extend({
   name: 'IndexPage',
-  layout: 'website',
+  layout: 'index-banner',
   components: {},
   data(){
     return {
