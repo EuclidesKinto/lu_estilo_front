@@ -1,5 +1,5 @@
 <template>
-  <section class="text-gray-600 body-font">
+  <section class="text-white body-font bg-lu-estilo-color">
     <ShirtDetail/>
   </section>
 </template>

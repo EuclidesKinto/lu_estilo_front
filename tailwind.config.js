@@ -17,6 +17,9 @@ module.exports = {
           poppins: ["Poppins", "sans-serif"],
           roboto: ["Roboto", "sans-serif"],
         },
+        colors:{
+          'lu-estilo-color': '#475472',
+        },
     },
   },
   variants: {
